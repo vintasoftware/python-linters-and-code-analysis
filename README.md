@@ -147,15 +147,15 @@ Feel free to contribute! Happy to receive PRs.
     [http://pre-commit.com/](http://pre-commit.com/)
 * CI-time
     * Configure linters to run on CI-time, like [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) does. Here's an example of a CI run with some linters:
-![](null)
+    ![CI run example](ci-run-example.png)
 * Code review-time
     * linty_fresh - Surface lint errors during code review: [https://github.com/lyft/linty_fresh](https://github.com/lyft/linty_fresh)
     * inline-plz-bot - Lints your Pull Requests and comments inline on the diffs:
-[https://github.com/guykisel/inline-plz-bot](https://github.com/guykisel/inline-plz-bot)
+    [https://github.com/guykisel/inline-plz-bot](https://github.com/guykisel/inline-plz-bot)
     * imhotep - Imhotep is a tool which will comment on commits coming into your repository and check for syntactic errors and general lint warnings:
-[https://github.com/justinabrahms/imhotep](https://github.com/justinabrahms/imhotep)
+    [https://github.com/justinabrahms/imhotep](https://github.com/justinabrahms/imhotep)
     * lint-review - An automated code linting bot that integrates various code lint tools with github pull requests:
-[https://github.com/markstory/lint-review](https://github.com/markstory/lint-review)
+    [https://github.com/markstory/lint-review](https://github.com/markstory/lint-review)
 
 ## Fixers
 * General:
