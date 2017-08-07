@@ -143,7 +143,8 @@ Feel free to contribute! Happy to receive PRs.
 * programming-time
     * Check your IDE extensions
 * commit-time
-    * pre-commit - [http://pre-commit.com/](http://pre-commit.com/)
+    * pre-commit - Run checks automatically before git commits:
+    [http://pre-commit.com/](http://pre-commit.com/)
 * CI-time
     * Configure linters to run on CI-time, like [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) does. Here's an example of a CI run with some linters:
 ![](null)
