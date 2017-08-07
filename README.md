@@ -6,7 +6,7 @@ Feel free to contribute! Happy to receive PRs.
 ## Linters
 * Wrappers:
     * Coala - Wrapper of code linters and fixers for various languages, including Python. Written in Python. Wraps [all popular Python linters](https://github.com/coala/coala-bears/tree/master/bears/python):
-[https://coala.io/](https://coala.io/)
+    [https://coala.io/](https://coala.io/)
         * bandit
         * mypy
         * pycodestyle
@@ -20,11 +20,11 @@ Feel free to contribute! Happy to receive PRs.
         * yapf
         * also, has exclusive checks:
             * PEP8 for Jupyter notebooks:
-[https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py)
+            [https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py)
             * __init__.py checker:
-[https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py)
+            [https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py)
     * prospector - Primary aim of Prospector is to be useful 'out of the box'. Wraps the [following tools](https://prospector.landscape.io/en/master/supported_tools.html):
-[https://github.com/landscapeio/prospector](https://github.com/landscapeio/prospector)
+    [https://github.com/landscapeio/prospector](https://github.com/landscapeio/prospector)
         * pylint
         * pycodestyle
         * pyflakes
@@ -35,7 +35,7 @@ Feel free to contribute! Happy to receive PRs.
         * vulture
         * frosted
     * Pylama - Wraps the following tools:
-[https://pylama.readthedocs.io/en/latest/](https://pylama.readthedocs.io/en/latest/)
+    [https://pylama.readthedocs.io/en/latest/](https://pylama.readthedocs.io/en/latest/)
         * pycodestyle
         * pydocstyle
         * pyflakes
@@ -49,73 +49,73 @@ Feel free to contribute! Happy to receive PRs.
         * [https://github.com/PyCQA/pycodestyle](https://github.com/PyCQA/pycodestyle)
         * [https://github.com/PyCQA/mccabe](https://github.com/PyCQA/mccabe)
     * pylint - Most intelligent Python linter. It's able to infer a lot using only static analysis, thereby finding subtle bugs. However, [it's criticized for unfriendly defaults](https://codewithoutrules.com/2016/10/19/pylint/):
-[https://github.com/PyCQA/pylint](https://github.com/PyCQA/pylint)
+    [https://github.com/PyCQA/pylint](https://github.com/PyCQA/pylint)
     * flake8-bugbear - A plugin for flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle:
-[https://github.com/PyCQA/flake8-bugbear](https://github.com/PyCQA/flake8-bugbear)
+    [https://github.com/PyCQA/flake8-bugbear](https://github.com/PyCQA/flake8-bugbear)
     * vulture - Find dead code:
-[https://pypi.python.org/pypi/vulture](https://pypi.python.org/pypi/vulture)
+    [https://pypi.python.org/pypi/vulture](https://pypi.python.org/pypi/vulture)
     * pydiatra - Yet another static checker for Python code [http://jwilk.net/software/pydiatra](http://jwilk.net/software/pydiatra)
 * Typing:
     * mypy - Mypy is an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Has type inference capabilities. Maybe it's the future of Python for larger projects:
-[http://mypy-lang.org/](http://mypy-lang.org/)
+    [http://mypy-lang.org/](http://mypy-lang.org/)
 * Imports ordering:
     * isort - A Python utility / library to sort imports or check them: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
     * flake8-import-order - Flake8 plugin that checks import order against various Python Style Guides:
-[https://github.com/PyCQA/flake8-import-order](https://github.com/PyCQA/flake8-import-order)
+    [https://github.com/PyCQA/flake8-import-order](https://github.com/PyCQA/flake8-import-order)
     * flake8-mypy - A plugin for Flake8 integrating mypy. To use in editors and other tools that already support Flake8 warning syntax and config:
-[https://github.com/ambv/flake8-mypy](https://github.com/ambv/flake8-mypy)
+    [https://github.com/ambv/flake8-mypy](https://github.com/ambv/flake8-mypy)
 * Naming:
     * pep8-naming - Naming Convention checker for Python:
-[https://github.com/PyCQA/pep8-naming](https://github.com/PyCQA/pep8-naming)
+    [https://github.com/PyCQA/pep8-naming](https://github.com/PyCQA/pep8-naming)
 * Circular imports:
     * pycycle - Tool for pinpointing circular imports in Python:
-[https://github.com/bndr/pycycle](https://github.com/bndr/pycycle)
+    [https://github.com/bndr/pycycle](https://github.com/bndr/pycycle)
 * Documentation:
     * pydocstyle - Docstring style checker:
-[https://github.com/PyCQA/pydocstyle](https://github.com/PyCQA/pydocstyle)
+    [https://github.com/PyCQA/pydocstyle](https://github.com/PyCQA/pydocstyle)
 * Packaging:
     * pyroma - Test your project's packaging friendliness:
-[https://pypi.python.org/pypi/pyroma/](https://pypi.python.org/pypi/pyroma/)
+    [https://pypi.python.org/pypi/pyroma/](https://pypi.python.org/pypi/pyroma/)
     * check-manifest - Tool to check the completeness of MANIFEST.in for Python packages:
-[https://github.com/mgedmin/check-manifest](https://github.com/mgedmin/check-manifest)
+    [https://github.com/mgedmin/check-manifest](https://github.com/mgedmin/check-manifest)
 * Security:
     * **safety** - Checks your installed dependencies for known security vulnerabilities. **A must for every Python project**: [https://github.com/pyupio/safety](https://github.com/pyupio/safety)
     * **bandit** - Python AST-based static analyzer from OpenStack Security Group. **A must for every Python project**:
-[https://github.com/openstack/bandit](https://github.com/openstack/bandit)
+    [https://github.com/openstack/bandit](https://github.com/openstack/bandit)
     * **dodgy** - Looks at Python code to search for things which look "dodgy" such as passwords or diffs. **A must for every Python project**:
-[https://github.com/landscapeio/dodgy](https://github.com/landscapeio/dodgy)
+    [https://github.com/landscapeio/dodgy](https://github.com/landscapeio/dodgy)
     * dependency-check - Shim to easily install OWASP dependency-check-cli into Python projects: [https://pypi.python.org/pypi/dependency-check/](https://pypi.python.org/pypi/dependency-check/)
     * pyt - A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web Applications:
-[https://github.com/python-security/pyt](https://github.com/python-security/pyt)
+    [https://github.com/python-security/pyt](https://github.com/python-security/pyt)
     * python-afl - American fuzzy lop fork server and instrumentation for pure-Python code:
-[https://github.com/jwilk/python-afl](https://github.com/jwilk/python-afl)
+    [https://github.com/jwilk/python-afl](https://github.com/jwilk/python-afl)
 * CPython:
     * cpychecker - a static analysis tool for CPython extension code: [https://gcc-python-plugin.readthedocs.io/en/latest/cpychecker.html](https://gcc-python-plugin.readthedocs.io/en/latest/cpychecker.html)
 * Code complexity:
     * mccabe - McCabe complexity checker for Python:
-[https://github.com/PyCQA/mccabe](https://github.com/PyCQA/mccabe)
+    [https://github.com/PyCQA/mccabe](https://github.com/PyCQA/mccabe)
     * radon - Radon is a Python tool that computes various metrics from the source code:
-[https://github.com/rubik/radon](https://github.com/rubik/radon)
+    [https://github.com/rubik/radon](https://github.com/rubik/radon)
     * xenon - It monitors your code's complexity using radon. Ideally, Xenon is run every time you commit code. Through command line options, you can set various thresholds for the complexity of your code:
-[https://github.com/rubik/xenon](https://github.com/rubik/xenon)
+    [https://github.com/rubik/xenon](https://github.com/rubik/xenon)
 * Spell-checker (for code):
     * scspell3k - Spell checker for source code: [https://pypi.python.org/pypi/scspell3k](https://pypi.python.org/pypi/scspell3k)
 * Django-specific checks:
     * pylint-django - Pylint plugin for improving code analysis for when using Django:
-[https://github.com/landscapeio/pylint-django](https://github.com/landscapeio/pylint-django)
+    [https://github.com/landscapeio/pylint-django](https://github.com/landscapeio/pylint-django)
     * pylint-celery - Pylint plugin for analysing code using Celery:
-[https://github.com/landscapeio/pylint-celery](https://github.com/landscapeio/pylint-celery)
+    [https://github.com/landscapeio/pylint-celery](https://github.com/landscapeio/pylint-celery)
     * pyup-django - Displays a red warning banner if you are running an insecure Django release:
-[https://github.com/pyupio/pyup-django](https://github.com/pyupio/pyup-django)
+    [https://github.com/pyupio/pyup-django](https://github.com/pyupio/pyup-django)
     * mypy-django - PEP-484 type hints bindings for the Django web framework:
-[https://github.com/machinalis/mypy-django](https://github.com/machinalis/mypy-django)
+    [https://github.com/machinalis/mypy-django](https://github.com/machinalis/mypy-django)
     * django-vitals - A Django app that provides health check endpoints for vital services:
-[https://github.com/LCOGT/django-vitals](https://github.com/LCOGT/django-vitals)
+    [https://github.com/LCOGT/django-vitals](https://github.com/LCOGT/django-vitals)
     * django-lint - Tool to lint Django applications and projects:
-[https://github.com/lamby/django-lint](https://github.com/lamby/django-lint)
+    [https://github.com/lamby/django-lint](https://github.com/lamby/django-lint)
 * Testing:
     * flake8-asserts - Flake8 plugin that enforces use of unittest's rich asserts:
-[https://github.com/stephenfin/flake8-asserts](https://github.com/stephenfin/flake8-asserts)
+    [https://github.com/stephenfin/flake8-asserts](https://github.com/stephenfin/flake8-asserts)
 * Pylint plugins:
     * Django/Celery:
         * [https://github.com/landscapeio/pylint-django](https://github.com/landscapeio/pylint-django)
