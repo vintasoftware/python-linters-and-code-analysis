@@ -160,11 +160,11 @@ Feel free to contribute! Happy to receive PRs.
 ## Fixers
 * General:
     * autoflake - autoflake removes unused imports and unused variables from Python code:
-[https://github.com/myint/autoflake](https://github.com/myint/autoflake)
+    [https://github.com/myint/autoflake](https://github.com/myint/autoflake)
     * autopep8 - A tool that automatically formats Python code to conform to the PEP 8 style guide:
-[https://github.com/hhatto/autopep8](https://github.com/hhatto/autopep8)
+    [https://github.com/hhatto/autopep8](https://github.com/hhatto/autopep8)
     * yapf - A formatter for Python files:
-[https://github.com/google/yapf](https://github.com/google/yapf)
+    [https://github.com/google/yapf](https://github.com/google/yapf)
 * Imports ordering:
     * isort - A Python utility / library to sort imports or check them: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
 
@@ -202,6 +202,8 @@ Feel free to contribute! Happy to receive PRs.
 [https://github.com/google/pytype](https://github.com/google/pytype)
 * retype - Re-apply type annotations from .pyi stubs to your codebase:
 [https://github.com/ambv/retype](https://github.com/ambv/retype)
+* typycal - Generate type stubs from runtime type information, ideally by running unit tests
+[http://ethanhs.me/blog/typycal.html](http://ethanhs.me/blog/typycal.html)
 
 ## Inactive projects
 * From any section above:
