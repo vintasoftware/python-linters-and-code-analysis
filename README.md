@@ -1,4 +1,9 @@
-# Linters
+# Python Linters and Code Analysis tools curated list
+A curated list made for the DjangoCon US talk ["Preventing headaches with linters and automated checks"](https://2017.djangocon.us/talks/preventing-headaches-with-linters-and-automated-checks/) by [Flávio Juvenal](https://twitter.com/flaviojuvenal).
+
+Feel free to contribute! Happy to receive PRs.
+
+## Linters
 * Wrappers:
     * Coala - Wrapper of code linters and fixers for various languages, including Python. Written in Python. Wraps [all popular Python linters](https://github.com/coala/coala-bears/tree/master/bears/python):
 [https://coala.io/](https://coala.io/)
@@ -134,7 +139,7 @@
         * [https://github.com/saltstack/salt-pylint](https://github.com/saltstack/salt-pylint)
         * [https://github.com/qutebrowser/qutebrowser/tree/master/scripts/dev/pylint_checkers/qute_pylint](https://github.com/qutebrowser/qutebrowser/tree/master/scripts/dev/pylint_checkers/qute_pylint)
 
-# When to run linters
+## When to run linters
 * programming-time
     * Check your IDE extensions
 * commit-time
@@ -151,7 +156,7 @@
     * lint-review - An automated code linting bot that integrates various code lint tools with github pull requests:
 [https://github.com/markstory/lint-review](https://github.com/markstory/lint-review)
 
-# Fixers
+## Fixers
 * General:
     * autoflake - autoflake removes unused imports and unused variables from Python code:
 [https://github.com/myint/autoflake](https://github.com/myint/autoflake)
@@ -162,7 +167,7 @@
 * Imports ordering:
     * isort - A Python utility / library to sort imports or check them: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
 
-# AST tools
+## AST tools
 * AST manipulation:
     * [https://docs.python.org/3/library/ast.html](https://docs.python.org/3/library/ast.html)
         * Better documentation for AST module: [https://greentreesnakes.readthedocs.io/en/latest/](https://greentreesnakes.readthedocs.io/en/latest/)
@@ -180,7 +185,7 @@
     * [https://github.com/titusjan/astviewer](https://github.com/titusjan/astviewer)
     * [https://github.com/quantifiedcode/python-ast-visualizer](https://github.com/quantifiedcode/python-ast-visualizer)
 
-# Refactoring tools
+## Refactoring tools
 * eradicate - Removes commented-out code:
 [https://pypi.python.org/pypi/eradicate](https://pypi.python.org/pypi/eradicate)
 * baron - IDE allow you to refactor code, Baron allows you to write refactoring code:
@@ -189,7 +194,7 @@
 * debtcollector - A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner: [https://pypi.python.org/pypi/debtcollector](https://pypi.python.org/pypi/debtcollector)
 * Raincoat - Raincoat has you covered when you can't stay DRY: [https://github.com/novafloss/raincoat](https://github.com/novafloss/raincoat)
 
-# Other tools
+## Other tools
 * Requirements Detector - attempts to find and list the requirements of a Python project:
 [https://github.com/landscapeio/requirements-detector](https://github.com/landscapeio/requirements-detector)
 * pytype - Pytype is a static type inferencer for Python code. Outputs type annotations which can be merged into code with [merge_pyi](https://github.com/google/merge_pyi). More info [here](https://lwn.net/Articles/690150/):
@@ -197,7 +202,7 @@
 * retype - Re-apply type annotations from .pyi stubs to your codebase:
 [https://github.com/ambv/retype](https://github.com/ambv/retype)
 
-# Inactive projects
+## Inactive projects
 * From any section above:
     * [https://github.com/timothycrosley/frosted](https://github.com/timothycrosley/frosted)
     * [http://clonedigger.sourceforge.net/index.html](http://clonedigger.sourceforge.net/index.html)
@@ -209,7 +214,7 @@
     * [https://github.com/spulec/pep8ify](https://github.com/spulec/pep8ify)
     * [http://euske.github.io/pyntch/index.html](http://euske.github.io/pyntch/index.html)
 
-# Sources
+## Sources
 * Original research
 * [Awesome Static Analysis](https://github.com/mre/awesome-static-analysis#python)
 * [This list](https://github.com/jwilk/check-all-the-things/blob/df538fd180d62bdd1c5bc1b28d1d63bb5ed2d952/data/python.ini)
