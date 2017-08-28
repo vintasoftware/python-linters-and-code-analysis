@@ -7,17 +7,7 @@ Feel free to contribute! Happy to receive PRs.
 * Wrappers:
     * Coala - Wrapper of code linters and fixers for various languages, including Python. Written in Python. Wraps [all popular Python linters](https://github.com/coala/coala-bears/tree/master/bears/python):
     [https://coala.io/](https://coala.io/)
-        * bandit
-        * mypy
-        * pycodestyle
-        * pydocstyle
-        * pyflakes
-        * isort
-        * pylint
-        * pyroma
-        * radon
-        * vulture
-        * yapf
+        * bandit, isort, mypy, pycodestyle, pydocstyle, pyflakes, pylint, pyroma, radon, vulture, yapf
         * also, has exclusive checks:
             * PEP8 for Jupyter notebooks:
             [https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py)
@@ -25,23 +15,10 @@ Feel free to contribute! Happy to receive PRs.
             [https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py)
     * prospector - Primary aim of Prospector is to be useful 'out of the box'. Wraps the [following tools](https://prospector.landscape.io/en/master/supported_tools.html):
     [https://github.com/landscapeio/prospector](https://github.com/landscapeio/prospector)
-        * pylint
-        * pycodestyle
-        * pyflakes
-        * mccabe
-        * dodgy
-        * pydocstyle
-        * pyroma
-        * vulture
-        * frosted
+        * dodgy, frosted, mccabe, pycodestyle, pydocstyle, pyflakes, pylint, pyroma, vulture
     * Pylama - Wraps the following tools:
     [https://pylama.readthedocs.io/en/latest/](https://pylama.readthedocs.io/en/latest/)
-        * pycodestyle
-        * pydocstyle
-        * pyflakes
-        * mccabe
-        * pylint
-        * radon
+        * mccabe, pycodestyle, pydocstyle, pyflakes, pylint, radon
 
 * General:
     * **flake8** - Wrapper around pyflakes, pycodestyle and mccabe. Considered a single tool here because it's **a must for every Python project to use those tools combined**. Also, it augments pyflakes and mccabe with [error codes](https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes). [https://github.com/PyCQA/flake8](https://github.com/PyCQA/flake8)
