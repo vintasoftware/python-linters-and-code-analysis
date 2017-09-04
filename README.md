@@ -150,6 +150,7 @@ Feel free to contribute! Happy to receive PRs.
     * [https://docs.python.org/3/library/ast.html](https://docs.python.org/3/library/ast.html)
         * Better documentation for AST module: [https://greentreesnakes.readthedocs.io/en/latest/](https://greentreesnakes.readthedocs.io/en/latest/)
     * [https://github.com/python/typed_ast](https://github.com/python/typed_ast)
+    * [https://github.com/davidhalter/parso](https://github.com/davidhalter/parso)
     * [https://github.com/berkerpeksag/astor](https://github.com/berkerpeksag/astor)
     * [https://github.com/simonpercivall/astunparse](https://github.com/simonpercivall/astunparse)
     * [https://github.com/mbdevpl/typed-astunparse](https://github.com/mbdevpl/typed-astunparse)
