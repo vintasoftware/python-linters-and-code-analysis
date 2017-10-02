@@ -19,6 +19,9 @@ Feel free to contribute! Happy to receive PRs.
     * Pylama - Wraps the following tools:
     [https://pylama.readthedocs.io/en/latest/](https://pylama.readthedocs.io/en/latest/)
         * mccabe, pycodestyle, pydocstyle, pyflakes, pylint, radon
+    * Ciocheck - Wraps the following tools:
+    [https://github.com/ContinuumIO/ciocheck](https://github.com/ContinuumIO/ciocheck)
+        * autopep8, flake8, isort, pep8, pydocstyle, pylint, pytest-cov, yapf
 
 * General:
     * **flake8** - Wrapper around pyflakes, pycodestyle and mccabe. Considered a single tool here because it's **a must for every Python project to use those tools combined**. Also, it augments pyflakes and mccabe with [error codes](https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes). [https://github.com/PyCQA/flake8](https://github.com/PyCQA/flake8)
