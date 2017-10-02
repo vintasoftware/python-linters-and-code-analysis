@@ -57,6 +57,8 @@ Feel free to contribute! Happy to receive PRs.
     * pydocstyle - Docstring style checker:
     [https://github.com/PyCQA/pydocstyle](https://github.com/PyCQA/pydocstyle)
 * Packaging:
+    * pipenv check - Asserts that PEP 508 requirements are being met by the current environment:
+    [https://github.com/kennethreitz/pipenv](https://github.com/kennethreitz/pipenv)
     * pyroma - Test your project's packaging friendliness:
     [https://pypi.python.org/pypi/pyroma/](https://pypi.python.org/pypi/pyroma/)
     * check-manifest - Tool to check the completeness of MANIFEST.in for Python packages:
