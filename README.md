@@ -41,6 +41,7 @@ Feel free to contribute! Happy to receive PRs.
 * Typing:
     * mypy - Mypy is an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Has type inference capabilities. Maybe it's the future of Python for larger projects:
     [http://mypy-lang.org/](http://mypy-lang.org/)
+    * pyre - Pyre is a performant type checker for python from Facebook: [https://pyre-check.org/](https://pyre-check.org/)
 * Imports ordering:
     * isort - A Python utility / library to sort imports or check them: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
     * flake8-import-order - Flake8 plugin that checks import order against various Python Style Guides:
