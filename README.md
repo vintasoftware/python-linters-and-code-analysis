@@ -66,7 +66,7 @@ Feel free to contribute! Happy to receive PRs.
 * Security:
     * **safety** - Checks your installed dependencies for known security vulnerabilities. **A must for every Python project**: [https://github.com/pyupio/safety](https://github.com/pyupio/safety)
     * **bandit** - Python AST-based static analyzer from OpenStack Security Group. **A must for every Python project**:
-    [https://github.com/openstack/bandit](https://github.com/openstack/bandit)
+    [https://github.com/PyCQA/bandit](https://github.com/PyCQA/bandit)
     * **dodgy** - Looks at Python code to search for things which look "dodgy" such as passwords or diffs. **A must for every Python project**:
     [https://github.com/landscapeio/dodgy](https://github.com/landscapeio/dodgy)
     * dependency-check - Shim to easily install OWASP dependency-check-cli into Python projects: [https://pypi.python.org/pypi/dependency-check/](https://pypi.python.org/pypi/dependency-check/)
