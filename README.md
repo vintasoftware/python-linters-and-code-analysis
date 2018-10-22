@@ -22,6 +22,9 @@ Feel free to contribute! Happy to receive PRs.
     * Ciocheck - Wraps the following tools:
     [https://github.com/ContinuumIO/ciocheck](https://github.com/ContinuumIO/ciocheck)
         * autopep8, flake8, isort, pep8, pydocstyle, pylint, pytest-cov, yapf
+    * wemake-python-styleguide - Wraps the following tools: 
+    [https://github.com/wemake-services/wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide)
+        * flake8, flake8-bugbear, eradicate, isort, mccabe, jones-complexity, and many other flake8 plugins
 
 * General:
     * **flake8** - Wrapper around pyflakes, pycodestyle and mccabe. Considered a single tool here because it's **a must for every Python project to use those tools combined**. Also, it augments pyflakes and mccabe with [error codes](https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes). [https://github.com/PyCQA/flake8](https://github.com/PyCQA/flake8)
