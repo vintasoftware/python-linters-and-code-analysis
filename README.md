@@ -14,7 +14,7 @@ Feel free to contribute! Happy to receive PRs.
             * `__init__.py` checker:
             [https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py)
     * prospector - Primary aim of Prospector is to be useful 'out of the box'. Wraps the [following tools](https://prospector.landscape.io/en/master/supported_tools.html):
-    [https://github.com/landscapeio/prospector](https://github.com/landscapeio/prospector)
+    [https://github.com/PyCQA/prospector](https://github.com/PyCQA/prospector)
         * dodgy, frosted, mccabe, pycodestyle, pydocstyle, pyflakes, pylint, pyroma, vulture
     * Pylama - Wraps the following tools:
     [https://pylama.readthedocs.io/en/latest/](https://pylama.readthedocs.io/en/latest/)
