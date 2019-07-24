@@ -149,6 +149,7 @@ Feel free to contribute! Happy to receive PRs.
 
 ## Fixers
 * General:
+    * **black** - Most accepted auto-formatter for Python that follows a strict subset of PEP 8. Used by Django and requests. **A must for every Python project**: https://github.com/psf/black
     * autoflake - autoflake removes unused imports and unused variables from Python code:
     [https://github.com/myint/autoflake](https://github.com/myint/autoflake)
     * autopep8 - A tool that automatically formats Python code to conform to the PEP 8 style guide:
