@@ -73,6 +73,7 @@ Feel free to contribute! Happy to receive PRs.
     [https://github.com/PyCQA/bandit](https://github.com/PyCQA/bandit)
     * **dodgy** - Looks at Python code to search for things which look "dodgy" such as passwords or diffs. **A must for every Python project**:
     [https://github.com/landscapeio/dodgy](https://github.com/landscapeio/dodgy)
+    * dlint - Tool for encouraging best coding practices and helping to ensure secure Python code: [https://github.com/duo-labs/dlint](https://github.com/duo-labs/dlint)
     * dependency-check - Shim to easily install OWASP dependency-check-cli into Python projects: [https://pypi.python.org/pypi/dependency-check/](https://pypi.python.org/pypi/dependency-check/)
     * pyt - A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web Applications:
     [https://github.com/python-security/pyt](https://github.com/python-security/pyt)
