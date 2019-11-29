@@ -13,6 +13,9 @@ Feel free to contribute! Happy to receive PRs.
             [https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PEP8NotebookBear.py)
             * `__init__.py` checker:
             [https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py](https://github.com/coala/coala-bears/blob/master/bears/python/PythonPackageInitBear.py)
+    * Yala - [https://github.com/cemsbr/yala](https://github.com/cemsbr/yala):
+        * Wraps the **latest** versions of: flake8, isort, pycodestyle, pydocstyle, pyflakes, pylint, radon
+        * Configure all linters in setup.cfg, even pylint.
     * prospector - Primary aim of Prospector is to be useful 'out of the box'. Wraps the [following tools](https://prospector.landscape.io/en/master/supported_tools.html):
     [https://github.com/PyCQA/prospector](https://github.com/PyCQA/prospector)
         * dodgy, frosted, mccabe, pycodestyle, pydocstyle, pyflakes, pylint, pyroma, vulture
