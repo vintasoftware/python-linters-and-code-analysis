@@ -41,7 +41,7 @@ Feel free to contribute! Happy to receive PRs.
     [http://jwilk.net/software/pydiatra](http://jwilk.net/software/pydiatra)
     * redbaron-missing-comma-string-collection - Warns about missing commas in Python string collections:
     [https://github.com/razzius/redbaron-missing-comma-string-collection](https://github.com/razzius/redbaron-missing-comma-string-collection)
-    * inspectortiger - A modern python code review tool which warns you about improvable code and possible bugs:
+    * inspectortiger - A modern automated Python code review tool which warns you about improvable code and possible bugs:
     [https://github.com/thg-consulting/inspectortiger](https://github.com/thg-consulting/inspectortiger)
 * Typing:
     * mypy - Mypy is an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Has type inference capabilities. Maybe it's the future of Python for larger projects:
