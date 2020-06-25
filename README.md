@@ -163,6 +163,8 @@ Feel free to contribute! Happy to receive PRs.
     [https://github.com/google/yapf](https://github.com/google/yapf)
 * Imports ordering:
     * isort - A Python utility / library to sort imports or check them: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
+* Imports removing
+   * [Unimport - A linter, formatter for finding and removing unused import statements](https://github.com/hakancelik96/unimport)
 
 ## AST tools
 * AST manipulation:
