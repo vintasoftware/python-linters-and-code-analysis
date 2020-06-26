@@ -203,6 +203,8 @@ Feel free to contribute! Happy to receive PRs.
 [https://github.com/ambv/retype](https://github.com/ambv/retype)
 * typycal - Generate type stubs from runtime type information, ideally by running unit tests
 [http://ethanhs.me/blog/typycal.html](http://ethanhs.me/blog/typycal.html)
+* dependenpy - Scan your code to build a dependency matrix for a set of Python packages,
+  than you can use for further analysis: [https://github.com/pawamoy/dependenpy](https://github.com/pawamoy/dependenpy)
 
 ## Inactive projects
 * From any section above:
